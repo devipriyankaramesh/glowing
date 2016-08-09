@@ -1,13 +1,7 @@
-package gggggghhh;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class removevowels {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args)
 		Scanner s=new Scanner(System.in);
 		System.out.println("enter");
 		String s1=s.nextLine();
