@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class prno
+class primeno
 {
  public static void main(String[] args)
  {
