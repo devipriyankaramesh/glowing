@@ -11,11 +11,12 @@ class rotate
     int m=0;
     for(int i=0;i<n;i++)  {    a[i]=s.nextInt();   }
     int k=s.nextInt();
+    if(k>=0){
     for(int j=k+1;j<a.length;j++)
        b[m++]=a[j];
     for(int j=0;j<=k;j++)
        b[m++]=a[j];
     for(int aa:b)
-       System.out.print(aa);
+       System.out.print(aa);}
   }
 }
