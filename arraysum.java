@@ -7,6 +7,7 @@ class arraysum
   Scanner s=new Scanner(System.in);
   int n=s.nextInt();
   int[] a=new int[n];
+  int p=0;
   for(int i=0;i<n;i++)
       a[i]=s.nextInt();
   for(int i=0;i<n;i++)
@@ -17,9 +18,10 @@ class arraysum
     {
      if(a[i]+a[j]==a[k])
       {
-        System.out.println(a[i]+" "+a[j]+" "+a[k]);
+        System.out.println(a[i]+" "+a[j]+" "+a[k]);p=1;
         break;
       }
     }
   }
+  if(p==0){  System.out.println("no elements");  }
   }}}
