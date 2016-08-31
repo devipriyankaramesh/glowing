@@ -8,15 +8,13 @@ class seed
   int n=s.nextInt();
   for(int i=1;i<=n;i++)
   {
-   int j=i,m=1;
-   int sum=j;
+   int j=i,m=i;
    while(j!=0)
    {
      m*=j%10;
      j=j/10;
     }
-    sum+=m;
-    if(sum==n)
+    if(m==n)
     {
       System.out.println(i);
       break;
