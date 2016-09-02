@@ -5,10 +5,19 @@ class h_27
  {
   Scanner s=new Scanner(System.in);
   String ss=s.nextLine();
+  int max=0;
   for(int i=0;i<ss.length();i++)
   {
    for(int j=i+1,j<ss.length();j++)
    {
-    System.out.println(ss.substring(i,j));
+    String s1=ss.substring(i,j);
+    int maxxx=s1.length();
+    StringBuffer sb=new StringBuffer(s1);
+    String s2=new StringBuffer(sb.reverse());
+    if(s1.equals(s2){  continue;  }
+    else{
+         if(max<maxxx){max=maxxx;}}
+   }
   }
-  }}}
+  
+  }}
