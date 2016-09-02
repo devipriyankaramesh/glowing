@@ -7,7 +7,7 @@ class binary_prime_no
   int a=s.nextInt();
   int b=s.nextInt();
   int count=cal_prime(a,b);
-  System.out.println(count);
+  System.out.println("Count is"+" "+count);
 }
 public static int cal_prime(int m,int n)
 {
