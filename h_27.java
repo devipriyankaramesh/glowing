@@ -8,12 +8,6 @@ class h_27
   int max=0;
   for(int i=0;i<ss.length();i++)
   {
-   for(int j=i+1;j<=ss.length();j++)
-   {  System.out.println(ss.substring(i,j)+"........"+ss.substring(i,j).length());}}
-   if("abaca".equals("acaba")){ System.out.println("yes");}
-   else { System.out.println("no"); }
-  for(int i=0;i<ss.length();i++)
-  {
    for(int j=i+1;j<ss.length();j++)
    {
     String s1=ss.substring(i,j);
